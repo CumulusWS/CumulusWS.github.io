@@ -1,0 +1,93 @@
+baseURL: "https://cumulus.ws/"
+title: Cumulus Web Services
+paginate: 5
+#theme: charlolamode
+
+
+
+menu:
+    main:
+        #- name: Contact
+        #  url: /contact/
+        #  weight: 30
+        - name: Projects
+          url: /projects/
+          weight: 25
+        - name: Articles
+          url: /articles/
+          weight: 20
+
+     # - name: Categories
+        #   url: /categories/
+        #   weight: 10
+        # - name: new Tab
+        #   url: /newtab/
+        #   weight: defines order of tabs
+   
+
+
+params:
+    author: Cumulus Web Services
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: Greeting peoples of internet!
+        description: |
+
+          On this website, you will find much informations and entertainments to make you laugh and learn!
+        
+
+        imageUrl: "/images/profile.png"
+        imageTitle: Cumulus Web Services
+        imageWidth: 240
+        imageHeight: 240
+        #buttons:
+        #    - name: Don't click me
+        #      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    mainSections:
+      - articles
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/cumulusws"
+        - name: twitter
+          url: "https://twitter.com/cumulusws"
+
+      # add more social icons. find more in svg.html file
+      # - name: youtube
+      #   url: yoururl
+      # - name: twitter
+      #   url: yoururl
+      # - name: facebook
+      #   url: yoururl
+
+
+    # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+
